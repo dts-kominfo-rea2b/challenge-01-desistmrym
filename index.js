@@ -35,7 +35,7 @@ const firstUser = {
     email: 'monica@dingdong.com',
     favoriteColor: ['Yellow', 'Pink', 'White', 'Purple'],
     isHavePet: 'Yes',
-    edication: [
+    education: [
         {
             name: 'SD 01',
             city: 'Jakarta',
@@ -61,7 +61,7 @@ const secondUser = {
     email: 'wendy@dingdong.com',
     favoriteColor: ['Blue', 'Black', 'Grey'],
     isHavePet: 'No',
-    edication: [
+    education: [
         {
             name: 'SD 02',
             city: 'Jakarta',
