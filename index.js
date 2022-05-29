@@ -2,31 +2,26 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
-const favFirst = new Set([
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Eggy",
-    "Tempura",
-    "Bento",
-    "Eggy",
-    "Padang",
-    "Tteok",
-    "Sushi",
-    "Sushi"
-])
+const favFirst = [
+        "Bento",
+        "Sushi",
+        "Pancake",
+        "Eggy",
+        "Tempura",
+        "Padang",
+        "Tteok",
+    ]
 
-const favSec = new Set([
-    "Tempura",
-    "Bento",
-    "Sushi",
-    "Pancake",
-    "Padang",
-    "Katsu",
-    "Geprek",
-    "Pancake",
-    "Eggy"
-])
+const favSec = [
+        "Tempura",
+        "Bento",
+        "Sushi",
+        "Pancake",
+        "Padang",
+        "Katsu",
+        "Geprek",
+        "Eggy"
+    ]
 
 const firstUser = {
     name: 'Monica',
