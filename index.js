@@ -15,8 +15,6 @@ const favFirst = new Set([
     "Sushi",
     "Sushi"
 ])
-  
-
 
 const favSec = new Set([
     "Tempura",
@@ -35,7 +33,7 @@ const firstUser = {
     gender: 'Female',
     age: "17",
     email: 'monica@dingdong.com',
-    favColor: ['Yellow', 'Pink', 'White', 'Purple'],
+    favoriteColor: ['Yellow', 'Pink', 'White', 'Purple'],
     isHavePet: 'Yes',
     edication: [
         {
@@ -53,14 +51,15 @@ const firstUser = {
             city: 'Tangerang',
         }
     ],
-    favRest: favFirst
+    favoriteRestaurant: favFirst
 };
+
 const secondUser = {
     name: 'Wendy',
     gender: 'Male',
     age: "23",
     email: 'wendy@dingdong.com',
-    favColor: ['Blue', 'Black', 'Grey'],
+    favoriteColor: ['Blue', 'Black', 'Grey'],
     isHavePet: 'No',
     edication: [
         {
@@ -83,7 +82,7 @@ const secondUser = {
             city: 'Tangerang',
         }
     ],
-    favRest: favSec
+    favoriteRestaurant: favSec
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
